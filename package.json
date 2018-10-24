@@ -1,17 +1,20 @@
 {
   "name": "semantic-test",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": true,
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts": "2.0.5"
+    "react-scripts": "2.0.5",
+    "semantic-release": "^15.10.5",
+    "semantic-release-cli": "^4.0.9"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "semantic-release": "node_modules/.bin/semantic-release"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -21,5 +24,12 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LotharII/semantic-test.git"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.10.5"
+  }
 }
