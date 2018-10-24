@@ -1,7 +1,6 @@
 {
-  "name": "semantic-test",
+  "name": "semantic-test-khilkevych",
   "version": "0.0.0-development",
-  "private": true,
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
