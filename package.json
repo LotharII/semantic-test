@@ -1,19 +1,19 @@
 {
   "name": "semantic-test-khilkevych",
-  "version": "0.0.0-development",
+  "version": "1.4.0",
+  "private": true,
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5",
-    "semantic-release": "^15.10.5",
-    "semantic-release-cli": "^4.0.9"
+    "semantic-release": "^15.10.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "semantic-release": "node_modules/.bin/semantic-release"
+    "semantic-release": "node_modules/.bin/semantic-release --ci false"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,7 +28,5 @@
     "type": "git",
     "url": "https://github.com/LotharII/semantic-test.git"
   },
-  "devDependencies": {
-    "semantic-release": "^15.10.5"
-  }
+  "devDependencies": {}
 }
