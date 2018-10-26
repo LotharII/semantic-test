@@ -1,7 +1,6 @@
 {
   "name": "semantic-test-khilkevych",
   "version": "1.2.4",
-  "private": true,
   "dependencies": {
     "lerna": "^3.4.3",
     "lerna-semantic-release": "^9.1.0",
@@ -37,8 +36,8 @@
     "url": "https://github.com/LotharII/semantic-test.git"
   },
   "devDependencies": {
-    "semantic-release": "^15.10.5",
-    "semantic-release-monorepo": "^6.1.1"
+    "semantic-release": "15.6.3",
+    "semantic-release-monorepo": "6.0.3"
   },
   "monorepo": {
     "mode": "locked",
