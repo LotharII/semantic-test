@@ -14,7 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "semantic-release": "node_modules/.bin/lerna-semantic-release"
+    "semantic-release": "semantic-release",
+    "lerna-semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,7 +35,10 @@
     "type": "git",
     "url": "https://github.com/LotharII/semantic-test.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "semantic-release": "^15.10.5",
+    "semantic-release-monorepo": "^6.1.1"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
