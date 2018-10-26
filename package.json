@@ -1,21 +1,21 @@
 {
   "name": "semantic-test-khilkevych",
-  "version": "latest",
+  "version": "1.2.4",
   "private": true,
   "dependencies": {
+    "@semantic-release/commit-analyzer": "^6.1.0",
     "lerna": "2.0.0-beta.31",
-    "lerna-semantic-release": "^9.1.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5",
-    "@semantic-release/commit-analyzer": "^6.1.0"
+    "sgc-commit-analyzer": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "semantic-release": "semantic-release",
+    "semantic-release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform",
     "semantic-release-monorepo": "npx semantic-release -e semantic-release-monorepo",
     "lerna-semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo",
     "lerna-semantic": "lerna-semantic-release pre lerna-semantic-release perform"
