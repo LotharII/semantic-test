@@ -1,6 +1,7 @@
 {
   "name": "semantic-test-khilkevych",
   "version": "1.2.4",
+  "private": true,
   "dependencies": {
     "lerna": "^3.4.3",
     "lerna-semantic-release": "^9.1.0",
