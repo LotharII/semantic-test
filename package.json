@@ -1,9 +1,8 @@
 {
   "name": "semantic-test-khilkevych",
-  "version": "latest",
+  "version": "1.2.4",
   "private": true,
   "dependencies": {
-    "commitizen": "^3.0.4",
     "lerna": "^3.4.3",
     "lerna-semantic-release": "^9.1.0",
     "react": "^16.6.0",
@@ -15,10 +14,15 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "semantic-release": "node_modules/.bin/lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform"
+    "semantic-release": "node_modules/.bin/lerna-semantic-release"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "workspaces": {
+    "packages": [
+      "libs/*"
+    ]
   },
   "browserslist": [
     ">0.2%",
@@ -30,9 +34,7 @@
     "type": "git",
     "url": "https://github.com/LotharII/semantic-test.git"
   },
-  "devDependencies": {
-    "cz-lerna-changelog": "^2.0.0"
-  },
+  "devDependencies": {},
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
