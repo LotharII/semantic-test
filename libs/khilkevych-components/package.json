@@ -15,6 +15,9 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
