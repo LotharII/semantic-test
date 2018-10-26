@@ -1,0 +1,29 @@
+lerna(verbose) GitUtilities.isInitialized    ()
+lerna(verbose) GitUtilities.isInitialized    () => true
+lerna(verbose) GitUtilities.getTopLevelDirectory()
+lerna(verbose) GitUtilities.getTopLevelDirectory() => "."
+lerna(verbose) FileSystemUtilities.existsSync("./lerna.json")
+lerna(verbose) FileSystemUtilities.existsSync("./lerna.json") => true
+lerna(verbose) FileSystemUtilities.readFileSync("./lerna.json")
+lerna(verbose) FileSystemUtilities.readFileSync("./lerna.json") => "{\n  \"version\": \"2.0.0-beta.31\",\n  \"independent\": false,\n  \"packages\": [\n    \"libs/*\"\n  ],\n  \"npmClient\": \"npm\",\n  \"useWorkspaces\": true,\n  \"lerna\": \"2.0.0-beta.31\"\n}"
+lerna(verbose) FileSystemUtilities.existsSync("./package.json")
+lerna(verbose) FileSystemUtilities.existsSync("./package.json") => true
+lerna(verbose) FileSystemUtilities.readFileSync("./package.json")
+lerna(verbose) FileSystemUtilities.readFileSync("./package.json") => "{\n  \"name\": \"semantic-test-khilkevych\",\n  \"version\": \"1.2.4\",\n  \"private\": true,\n  \"dependencies\": {\n    \"lerna\": \"2.0.0-beta.31\",\n    \"lerna-semantic-release\": \"^9.1.0\",\n    \"react\": \"^16.6.0\",\n    \"react-dom\": \"^16.6.0\",\n    \"react-scripts\": \"2.0.5\"\n  },\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test\",\n    \"eject\": \"react-scripts eject\",\n    \"semantic-release\": \"semantic-release\",\n    \"semantic-release-monorepo\": \"npx semantic-release -e semantic-release-monorepo\",\n    \"lerna-semantic-release\": \"lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo\"\n  },\n  \"eslintConfig\": {\n    \"extends\": \"react-app\"\n  },\n  \"workspaces\": {\n    \"packages\": [\n      \"libs/*\"\n    ]\n  },\n  \"browserslist\": [\n    \">0.2%\",\n    \"not dead\",\n    \"not ie <= 11\",\n    \"not op_mini all\"\n  ],\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"https://github.com/LotharII/semantic-test.git\"\n  },\n  \"devDependencies\": {\n    \"semantic-release\": \"15.10.3\",\n    \"semantic-release-monorepo\": \"6.1.1\"\n  },\n  \"monorepo\": {\n    \"mode\": \"locked\",\n    \"packages\": [\n      \"libs/khilkevych-components\",\n      \"libs/khilkevych-core\"\n    ]\n  }\n}"
+lerna(info)    Lerna v2.0.0-beta.31
+lerna(verbose) FileSystemUtilities.existsSync("./package.json")
+lerna(verbose) FileSystemUtilities.existsSync("./package.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("./lerna.json")
+lerna(verbose) FileSystemUtilities.existsSync("./lerna.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("./VERSION")
+lerna(verbose) FileSystemUtilities.existsSync("./VERSION") => false
+lerna(verbose) FileSystemUtilities.existsSync("./libs/khilkevych-components/package.json")
+lerna(verbose) FileSystemUtilities.existsSync("./libs/khilkevych-components/package.json") => true
+lerna(verbose) FileSystemUtilities.existsSync("./libs/khilkevych-core/package.json")
+lerna(verbose) FileSystemUtilities.existsSync("./libs/khilkevych-core/package.json") => true
+lerna(verbose) Attempting running ExecCommand.initialize
+lerna(verbose) Successfully ran ExecCommand.initialize
+lerna(verbose) Attempting running ExecCommand.execute
+lerna(error)   Errored while running command 'npx' with arguments '--no-install semantic-release -e semantic-release-monorepo' in 'khilkevych-components'
+lerna(error)   Errored while running ExecCommand.execute
+    Command failed: npx --no-install semantic-release -e semantic-release-monorepo
