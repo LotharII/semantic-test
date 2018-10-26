@@ -15,6 +15,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "semantic-release": "semantic-release",
+    "semantic-release-monorepo": "npx semantic-release -e semantic-release-monorepo",
     "lerna-semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "eslintConfig": {
@@ -39,9 +40,11 @@
     "semantic-release": "^15.10.5",
     "semantic-release-monorepo": "^6.1.1"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-lerna-changelog"
-    }
+  "monorepo": {
+    "mode": "locked",
+    "packages": [
+      "libs/khilkevych-components",
+      "libs/khilkevych-core"
+    ]
   }
 }
