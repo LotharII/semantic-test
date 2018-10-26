@@ -4,6 +4,6 @@
   "packages": [
     "libs/*"
   ],
-  "npmClient": "yarn",
+  "npmClient": "npm",
   "useWorkspaces": true
 }
