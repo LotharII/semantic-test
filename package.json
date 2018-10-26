@@ -39,7 +39,14 @@
     "url": "https://github.com/LotharII/semantic-test.git"
   },
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "cz-lerna-changelog": "^2.0.0",
     "semantic-release": "15.10.3",
     "semantic-release-monorepo": "6.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   }
 }
