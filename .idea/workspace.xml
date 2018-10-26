@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f7c1479a-89d4-4a07-b01e-4659bd62b40d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/libs/khilkevych-components/package-lock.json" afterPath="$PROJECT_DIR$/libs/khilkevych-components/package-lock.json" />
-      <change beforePath="$PROJECT_DIR$/libs/khilkevych-components/package.json" afterPath="$PROJECT_DIR$/libs/khilkevych-components/package.json" />
-      <change beforePath="$PROJECT_DIR$/libs/khilkevych-core/package.json" afterPath="$PROJECT_DIR$/libs/khilkevych-core/package.json" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +56,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libs/khilkevych-components/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -343,7 +339,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540416069252</updated>
-      <workItem from="1540416070937" duration="12015000" />
+      <workItem from="1540416070937" duration="12051000" />
     </task>
     <task id="LOCAL-00001" summary="feat(test): second test">
       <created>1540420822644</created>
@@ -408,11 +404,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540574677678</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat(test): 23">
+      <created>1540575877185</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540575877185</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12015000" />
+    <option name="totallyTimeSpent" value="12051000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="0" />
@@ -464,7 +467,8 @@
     <MESSAGE value="feat(test): 2" />
     <MESSAGE value="feat(test): 21" />
     <MESSAGE value="feat(test): 22" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(test): 22" />
+    <MESSAGE value="feat(test): 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(test): 23" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -572,8 +576,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/khilkevych-components/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="34" lean-forward="false" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
         </state>
       </provider>
