@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.4.1](https://github.com/LotharII/semantic-test/compare/v4.4.0...v4.4.1) (2018-10-29)
+
+
+### Bug Fixes
+
+* blah blah blahh ([2120299](https://github.com/LotharII/semantic-test/commit/2120299))
+
+
+
+
+
 # [4.4.0](https://github.com/LotharII/semantic-test/compare/v4.3.0...v4.4.0) (2018-10-29)
 
 
