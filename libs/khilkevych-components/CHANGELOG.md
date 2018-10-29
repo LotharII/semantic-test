@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.1.2](https://github.com/LotharII/semantic-test/compare/v5.1.1...v5.1.2) (2018-10-29)
+
+
+### Bug Fixes
+
+* blah blah blahh ([edc9c4e](https://github.com/LotharII/semantic-test/commit/edc9c4e))
+
+
+
+
+
 ## [5.1.1](https://github.com/LotharII/semantic-test/compare/v5.1.0...v5.1.1) (2018-10-29)
 
 
