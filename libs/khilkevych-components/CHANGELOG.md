@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.3.0](https://github.com/LotharII/semantic-test/compare/v4.2.1...v4.3.0) (2018-10-29)
+
+**Note:** Version bump only for package khilkevych-components
+
+
+
+
+
 # [4.0.0](https://github.com/LotharII/semantic-test/compare/v3.2.6...v4.0.0) (2018-10-29)
 
 **Note:** Version bump only for package khilkevych-components
