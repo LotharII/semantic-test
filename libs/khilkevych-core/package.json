@@ -1,6 +1,6 @@
 {
   "name": "khilkevych-core",
-  "version": "3.2.6",
+  "version": "4.0.0",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
