@@ -18,7 +18,8 @@
     "semantic-release": "lerna-semantic-release pre && lerna-semantic-release post && lerna-semantic-release perform",
     "semantic-release-monorepo": "npx semantic-release -e semantic-release-monorepo",
     "lerna-semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo",
-    "lerna-semantic": "lerna-semantic-release pre lerna-semantic-release perform"
+    "lerna-semantic": "lerna-semantic-release pre lerna-semantic-release perform",
+    "publish": "lerna publish --conventional-commits --force-publish --yes"
   },
   "eslintConfig": {
     "extends": "react-app"
