@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.2.0](https://github.com/LotharII/semantic-test/compare/v8.1.0...v8.2.0) (2018-10-31)
+
+
+### Features
+
+* blah ([7ccaf19](https://github.com/LotharII/semantic-test/commit/7ccaf19))
+
+
+
+
+
 # [8.1.0](https://github.com/LotharII/semantic-test/compare/v8.0.0...v8.1.0) (2018-10-31)
 
 
