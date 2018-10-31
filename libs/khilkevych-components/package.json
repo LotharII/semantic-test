@@ -1,6 +1,6 @@
 {
   "name": "khilkevych-components",
-  "version": "6.1.0",
+  "version": "7.0.0",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",

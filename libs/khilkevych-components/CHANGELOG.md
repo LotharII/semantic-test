@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [7.0.0](https://github.com/LotharII/semantic-test/compare/v6.1.0...v7.0.0) (2018-10-31)
+
+
+### Features
+
+* **foo:** blah ([1965b2b](https://github.com/LotharII/semantic-test/commit/1965b2b))
+
+
+### BREAKING CHANGES
+
+* **foo:** blah
+
+
+
+
+
 # [6.1.0](https://github.com/LotharII/semantic-test/compare/v6.0.2...v6.1.0) (2018-10-31)
 
 
