@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0](https://github.com/LotharII/semantic-test/compare/v7.0.0...v8.0.0) (2018-10-31)
+
+**Note:** Version bump only for package khilkevych-core
+
+
+
+
+
 # [7.0.0](https://github.com/LotharII/semantic-test/compare/v6.1.0...v7.0.0) (2018-10-31)
 
 **Note:** Version bump only for package khilkevych-core
