@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [6.1.0](https://github.com/LotharII/semantic-test/compare/v6.0.2...v6.1.0) (2018-10-31)
+
+**Note:** Version bump only for package khilkevych-core
+
+
+
+
+
 ## [6.0.2](https://github.com/LotharII/semantic-test/compare/v6.0.1...v6.0.2) (2018-10-29)
 
 **Note:** Version bump only for package khilkevych-core
