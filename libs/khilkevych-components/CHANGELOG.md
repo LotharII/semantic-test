@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [9.0.0](https://github.com/LotharII/semantic-test/compare/v8.3.0...v9.0.0) (2018-10-31)
+
+
+* something ([efb2d39](https://github.com/LotharII/semantic-test/commit/efb2d39))
+
+
+### BREAKING CHANGES
+
+* blah
+
+
+
+
+
 # [8.3.0](https://github.com/LotharII/semantic-test/compare/v8.2.0...v8.3.0) (2018-10-31)
 
 
